@@ -1,5 +1,5 @@
-kilo: kilo.c
-	$(CC) kilo.c -o main -Wall -Wextra -pedantic -std=c99
+bat: bat.c
+	$(CC) bat.c -o main -Wall -Wextra -pedantic -std=c99
 
 clean:
 	rm main
